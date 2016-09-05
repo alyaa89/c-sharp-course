@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            float fmin = float.MinValue;
+            float fmax = float.MaxValue;
+            Console.WriteLine("fmin={0}fmax={1}", fmin, fmax);
+
+            float flvar = 1f / 3;
+            double  dlvar = 1D / 3;
+            decimal dcvar = 1M / 3;
+            Console.WriteLine("\n float ={0}\ndouble={1}\ndecemil={2}", flvar, dlvar, dcvar);
+
+
+            Console.ReadKey();
+
+
+        }
+    }
+}
